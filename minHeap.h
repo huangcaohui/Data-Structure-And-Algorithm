@@ -23,4 +23,5 @@ public:
     T &RemoveMin();     //从堆顶删除最小值
     void SiftUp(int position);  //从position向上开始调整，使序列成为堆
     void SiftDown(int left);  //筛选法函数，参数left表示开始处理的数组下标
+    bool isEmpty();
 };
