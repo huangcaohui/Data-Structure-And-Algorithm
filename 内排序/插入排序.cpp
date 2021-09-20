@@ -15,9 +15,8 @@ void ImprovedInsertSort(Record Array[], int n)  //Array[]为待排序数组，n�
         int j = i-1;
 
         //将那些大于等于记录i的记录后移
-
         while(j > 0 && TempRecord < Array[j])
-        {
+        {   
             Array[j+1] = Array[j];
             j = j - 1;
         }
